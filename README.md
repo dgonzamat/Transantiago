@@ -82,3 +82,7 @@ La aplicación está disponible en: **[https://dgonzamat.github.io/Transantiago]
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
+
+---
+
+**Última actualización**: Configurado para GitHub Pages con deploy automático
