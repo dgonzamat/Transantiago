@@ -49,6 +49,15 @@ npm run deploy
 
 La aplicación está disponible en: **[https://dgonzamat.github.io/Transantiago](https://dgonzamat.github.io/Transantiago)**
 
+## ⚠️ Importante: Repositorio Público
+
+**GitHub Pages requiere que el repositorio sea público para funcionar correctamente.**
+
+Para activar GitHub Pages:
+1. Ve a Settings > Pages
+2. En Source, selecciona "GitHub Actions"
+3. Asegúrate de que el repositorio sea público
+
 ## 📱 Funcionalidades
 
 ### Dashboard
