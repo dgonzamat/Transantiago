@@ -1,30 +1,84 @@
 # Transantiago
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Aplicación web moderna para el sistema de transporte público de Santiago, Chile.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/daniel-gonzalez-s-projects/v0-transantiago)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/4RJ5clpcmN6)
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://dgonzamat.github.io/Transantiago)
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 
-## Overview
+## 🚌 Características
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- **Dashboard Principal**: Vista general con estadísticas del sistema de transporte
+- **Consulta de Paraderos**: Información en tiempo real de llegadas de buses
+- **Estado del Metro**: Estado detallado de todas las líneas del metro
+- **Gestión de Tarjetas Bip**: Consulta de saldo y gestión de tarjetas
 
-## Deployment
+## 🛠️ Tecnologías
 
-Your project is live at:
+- **Next.js 15** con React 19
+- **TypeScript** para type safety
+- **Tailwind CSS** para estilos
+- **Radix UI** para componentes accesibles
+- **Lucide React** para iconos
+- **Recharts** para visualización de datos
 
-**[https://vercel.com/daniel-gonzalez-s-projects/v0-transantiago](https://vercel.com/daniel-gonzalez-s-projects/v0-transantiago)**
+## 🚀 Instalación y Desarrollo
 
-## Build your app
+```bash
+# Clonar el repositorio
+git clone https://github.com/dgonzamat/Transantiago.git
+cd Transantiago
 
-Continue building your app on:
+# Instalar dependencias
+npm install
 
-**[https://v0.dev/chat/projects/4RJ5clpcmN6](https://v0.dev/chat/projects/4RJ5clpcmN6)**
+# Ejecutar en modo desarrollo
+npm run dev
+```
 
-## How It Works
+## 📦 Build y Deploy
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```bash
+# Build para producción
+npm run build
+
+# Deploy a GitHub Pages
+npm run deploy
+```
+
+## 🌐 Demo
+
+La aplicación está disponible en: **[https://dgonzamat.github.io/Transantiago](https://dgonzamat.github.io/Transantiago)**
+
+## 📱 Funcionalidades
+
+### Dashboard
+- Estadísticas en tiempo real del sistema de transporte
+- Acceso rápido a consultas de paraderos
+- Información general del sistema
+
+### Paraderos
+- Consulta de llegadas en tiempo real
+- Códigos de parada (ej: PA433, PA1205)
+- Información detallada de servicios
+
+### Metro
+- Estado de todas las líneas del metro
+- Información de interrupciones
+- Tiempos de espera estimados
+
+### Tarjetas Bip
+- Consulta de saldo
+- Historial de transacciones
+- Gestión de múltiples tarjetas
+
+## 🤝 Contribuir
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.

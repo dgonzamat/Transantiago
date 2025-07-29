@@ -1,12 +1,15 @@
 {
-  "name": "my-v0-project",
+  "name": "transantiago",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dgonzamat.github.io/Transantiago",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build",
+    "deploy": "npm run build && touch out/.nojekyll"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
